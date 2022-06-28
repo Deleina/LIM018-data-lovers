@@ -510,6 +510,7 @@ const showAllInfoPoke = (pokemon) => {
 
   tableTagTwo.appendChild(secondTrTagSA);
 
+  
   computeStats(pokemon).forEach(e => {
     const fourtTrTag = document.createElement('tr');
     const firstTdTag = document.createElement('td');
